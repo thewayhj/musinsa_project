@@ -1,14 +1,14 @@
 package com.musinsa.homework.thewayhj.exception;
 
 import org.springframework.http.HttpStatus;
-import javax.persistence.NoResultException;
 
-public class NotFoundException extends NoResultException {
+public class ConflictException extends RuntimeException {
     public static int code;
     public static String message;
 
-    public NotFoundException(HttpStatus httpStatus){
+    public ConflictException(HttpStatus httpStatus){
         code = httpStatus.value();
         message = httpStatus.getReasonPhrase();
     }
+
 }

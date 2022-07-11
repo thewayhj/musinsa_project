@@ -7,6 +7,6 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ResultForm {
-	private int		code;
-	private String	message;
+	private int code;
+	private String message;
 }

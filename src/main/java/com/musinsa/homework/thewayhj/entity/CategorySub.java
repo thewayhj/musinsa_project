@@ -20,9 +20,9 @@ public class CategorySub {
     @Id
     @NotNull
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(columnDefinition = "INT NOT NULL COMMENT STRINGDECODE('메인 카테고리 ID')")
+    @Column(columnDefinition = "INT NOT NULL COMMENT STRINGDECODE('서브 카테고리 ID')")
     private int categoryId;
 
-    @Column(columnDefinition = "VARCHAR(20) COMMENT STRINGDECODE('메인 카테고리명')")
+    @Column(columnDefinition = "VARCHAR(20) COMMENT STRINGDECODE('서브 카테고리명')")
     private String categoryName;
 }

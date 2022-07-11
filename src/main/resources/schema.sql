@@ -62,7 +62,7 @@ CREATE TABLE ITEM COMMENT '아이템 정보' (
     ITEM_NO         INT             NOT NULL    AUTO_INCREMENT  COMMENT 'ITEM NUMBER',
     CATEGORY_ID     INT             NOT NULL                    COMMENT '서브 카테고리 ID',
     ITEM_NAME       VARCHAR(200)    NOT NULL                    COMMENT 'ITEM명',
-    DESCRIPTION     VARCHAR(1000)   NOT NULL                    COMMENT 'ITEM 설명',
+    DESCRIPTION     VARCHAR(1000)                               COMMENT 'ITEM 설명',
     PRICE           BIGINT          NOT NULL                    COMMENT 'ITEM 가격',
     BRAND_NAME      VARCHAR(200)    NOT NULL                    COMMENT '브랜드명',
     PRIMARY KEY (ITEM_NO)

@@ -1,15 +1,14 @@
 package com.musinsa.homework.thewayhj.exception;
 
-import com.musinsa.homework.thewayhj.entity.enums.ExceptionCode;
+import org.springframework.http.HttpStatus;
 import javax.persistence.NoResultException;
 
 public class NoDataException extends NoResultException {
-    public static ExceptionCode code;
+    public static int code;
     public static String message;
 
-    public NoDataException(ExceptionCode exceptionCode, String ExceptionMessage){
-        super(exceptionCode.name());
-        code = exceptionCode;
-        message = ExceptionMessage;
+    public NoDataException(HttpStatus httpStatus){
+        code = httpStatus.value();
+        message = httpStatus.getReasonPhrase();
     }
 }
