@@ -1,11 +1,9 @@
-package com.musinsa.homework.thewayhj.Dto;
+package com.musinsa.homework.thewayhj.dto;
 
-import com.sun.istack.NotNull;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Builder;
 import lombok.Data;
 
-import javax.persistence.Column;
 import java.math.BigInteger;
 
 public class CategoryDto {

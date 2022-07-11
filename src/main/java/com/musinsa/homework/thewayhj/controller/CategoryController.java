@@ -1,8 +1,7 @@
 package com.musinsa.homework.thewayhj.controller;
 
-import com.musinsa.homework.thewayhj.Dto.CategoryDto;
+import com.musinsa.homework.thewayhj.dto.CategoryDto;
 import com.musinsa.homework.thewayhj.service.CategoryService;
-import com.sun.xml.internal.bind.v2.TODO;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
