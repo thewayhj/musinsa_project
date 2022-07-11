@@ -10,4 +10,6 @@ import java.util.List;
 @Transactional
 public interface CategoryMappingRepository extends JpaRepository<CategoryMapping, Integer> {
     List<CategoryMapping> findByCategoryId(int categoryId);
+    CategoryMapping findByCategoryIdAndSubCategoryId(int categoryId, int subCategoryId);
+    void deleteCategoryMappingByCategoryId(int categoryId);
 }
