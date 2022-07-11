@@ -1,4 +1,4 @@
-package com.musinsa.homework.thewayhj.Exception;
+package com.musinsa.homework.thewayhj.exception;
 
 import com.musinsa.homework.thewayhj.entity.enums.ExceptionCode;
 import javax.persistence.NoResultException;

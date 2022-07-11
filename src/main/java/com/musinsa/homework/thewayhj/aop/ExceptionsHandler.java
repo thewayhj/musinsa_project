@@ -1,7 +1,7 @@
 package com.musinsa.homework.thewayhj.aop;
 
-import com.musinsa.homework.thewayhj.Exception.NoDataException;
-import com.musinsa.homework.thewayhj.Exception.NotFoundException;
+import com.musinsa.homework.thewayhj.exception.NoDataException;
+import com.musinsa.homework.thewayhj.exception.NotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

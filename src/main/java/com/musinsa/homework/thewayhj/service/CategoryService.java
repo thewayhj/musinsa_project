@@ -1,6 +1,6 @@
 package com.musinsa.homework.thewayhj.service;
 
-import com.musinsa.homework.thewayhj.Dto.CategoryDto;
+import com.musinsa.homework.thewayhj.dto.CategoryDto;
 import com.musinsa.homework.thewayhj.entity.CategoryMain;
 import com.musinsa.homework.thewayhj.entity.CategoryMapping;
 import com.musinsa.homework.thewayhj.entity.CategorySub;
