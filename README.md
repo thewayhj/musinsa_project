@@ -45,10 +45,8 @@
   * jar 파일이 있는 위치에서 아래 명력어 실행.
     ``` 
       java -jar ${fileName}.jar
-
     ```
   * background 실행
     ``` 
       nohup java -jar ${fileName}.jar &
-
     ```
