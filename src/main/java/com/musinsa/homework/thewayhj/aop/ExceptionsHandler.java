@@ -34,7 +34,7 @@ public class ExceptionsHandler {
 	}
 
 	@ExceptionHandler(NotFoundException.class)
-	public ResponseEntity<?> handleFoundException(){
+	public ResponseEntity<?> handleNotFoundException(){
 		log.error("ERROR404 " +HttpStatus.NOT_FOUND.getReasonPhrase());
 		return new ResponseEntity<>(HttpStatus.NOT_FOUND.getReasonPhrase(), HttpStatus.NOT_FOUND);
 	}
