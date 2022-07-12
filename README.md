@@ -42,7 +42,7 @@
   * build > libs 하위에 생성된 jar 파일을 Linux 서버에 옮김
   
  ## jar 실행
-  * jar 파일이 있는 위치에서 아래 명력어 실행.
+  * jar 파일이 있는 위치에서 아래 명령어 실행.
     ``` 
       java -jar ${fileName}.jar
     ```
